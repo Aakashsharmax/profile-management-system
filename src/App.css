@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eef2f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 750px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: #007bff;
+  margin-bottom: 15px;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+button[type="button"] {
+  width: 100%;
+  background: #6c757d;
+  margin-bottom: 15px;
+}
+
+button[type="button"]:hover {
+  background: #555;
+}
+
+.profile-card {
+  background: #f8f9fa;
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #007bff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.profile-card p {
+  margin: 6px 0;
+  color: #333;
+}
+
+.profile-card button {
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.profile-card button:first-of-type {
+  background: #28a745;
+}
+
+.profile-card button:first-of-type:hover {
+  background: #218838;
+}
+
+.profile-card button:last-of-type {
+  background: #dc3545;
+}
+
+.profile-card button:last-of-type:hover {
+  background: #c82333;
+}
+
+hr {
+  margin-top: 18px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  button[type="submit"],
+  button[type="button"] {
+    width: 100%;
+  }
+}
