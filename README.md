@@ -42,10 +42,25 @@ MongoDB
 
 ⸻
 
-📸 Screenshots
+---
 
-Coming Soon
+# 📸 Screenshots
 
+## 🔐 Login Page
+
+![Login](screenshots/login-page.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ➕ Add Profile
+
+![Add Profile](screenshots/add-profile.png)
 ⸻
 
 ⚙️ Installation
